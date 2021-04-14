@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <!-- <title>To Do List</title> -->
+    <title>Adding into Array.</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -14,7 +15,7 @@
         <h1>Hello! i put a heaading here.</h1>
         <button id="click">Click me!</button>
     </div>     -->
-    <div id="myDIV" class="header">
+    <!-- <div id="myDIV" class="header">
         <h2>Zainab To Do List</h2>
         <input type="text" id="myInput" placeholder="Search...">
         <span onclick="newElement()" class="addBtn">Add</span>
@@ -28,13 +29,21 @@
         <li>Read a book.</li>
         <li>Made Dinner.</li>
         <li>Organize Wardrobe.</li>
-    </ul>
-</body>
+    </ul> -->
 
+<div id="mydiv" class="header">
+    <input type="text" id="myInput" placeholder="type to add anything....">
+    <span onclick="add_element_to_array();" id="button1" class="addBtn">Add</span>
+    <span onclick="display_array();" id="button2" class="addBtn">Display</span>
+    <span onclick="clear();" id="button3" class="addBtn">Clear</span>
+</div>
+<div id="Result"></div>
+<!-- <span onclick="display_array();" id="button2" class="addBtn">Display</span> -->
 <!-- <script src="js/script.js"></script> -->
 <!-- <script src="js/script.js"></script> -->
 <!-- <script src="js/codeacademy.js"></script> -->
 <!-- <script src="js/iteration methods.js"></script> -->
-<script src="js/todo.js"></script>
-
+<!-- <script src="js/todo.js"></script> -->
+<script src="js/static.js"></script>
+</body>
 </html>

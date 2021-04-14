@@ -7,11 +7,6 @@ for (let i = 0; i <= 15; i++) {
     array.push(i)
 }
 document.write(array);
-// let array = [];
-// for (let i = 0; i < 15; i * 2) {
-//     array.push(i);
-// }
-// document.write(array);
 
 // array.forEach(myFunction)
 // function myFunction(item, index, array) {
@@ -19,10 +14,10 @@ document.write(array);
 // }
 // document.write(array);
 
-// var newarray = array.map(myFunction)
-// function myFunction(i) {
-//   return i * 10;
-// }
+var newarray = array.map(myFunction)
+function myFunction(i) {
+  return i * 10;
+}
 
 // array.forEach(item => {
 //     // document.write(item.array+2)

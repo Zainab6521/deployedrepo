@@ -69,9 +69,14 @@
     color: white;
   }
   
+.header{
+  display: flex;
+
+}
+
   /* Style the header */
   .header {
-    background-color: #f44336;
+    background-color: #e1f8a0;
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -98,9 +103,9 @@
   /* Style the "Add" button */
   .addBtn {
     padding: 10px;
-    width: 25%;
-    background: #d9d9d9;
-    color: #555;
+    width: 15%;
+    background: #8a8787;
+    color: rgb(46, 27, 27);
     float: left;
     text-align: center;
     font-size: 16px;
