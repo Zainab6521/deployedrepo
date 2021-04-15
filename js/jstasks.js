@@ -18,14 +18,30 @@
 
 // document.getElementById("result").innerText = "the result is " +Addnums() ;
 
-let numb1 = prompt("Enter first number", "3");
-document.getElementById("result1").innerText = "First Number " + numb1;
 
-let numb2 = prompt("Enter second number", "3");
-document.getElementById("result2").innerText = "Second Number " + numb2;
+//arrow function
 
-let Addnums = (numb1, numb2) => {
-   Number(numb1) + Number(numb2)
-};
-const output1 = Addnums(numb1, numb2);
-document.getElementById("result").innerText = "the result is " + output1 ;
+// let numb1 = prompt("Enter first number", "3");
+// document.getElementById("result1").innerText = "First Number " + numb1;
+
+// let numb2 = prompt("Enter second number", "3");
+// document.getElementById("result2").innerText = "Second Number " + numb2;
+
+// let Addnums = (numb1, numb2) => {
+//    Number(numb1) + Number(numb2)
+// };
+// const output1 = Addnums(numb1, numb2);
+// document.getElementById("result").innerText = "the result is " + output1 ;
+// let number1 = document.getElementById("Input1").value;
+
+// let number2 = document.getElementById("Input2").value;
+
+const Addnumbers = (number1, number2) => {
+    let num1 = document.getElementById("Input1").value;
+    let num2 = document.getElementById("Input2").value;
+    const output1 = Number(num1) + Number(num2);
+    // Number(number1) + Number(number2);
+    document.getElementById("result").innerHTML = 'Result is ' + output1 ;
+}
+// const output1 = Addnumbers();
+// document.getElementById("result").innerText = Addnumbers();
