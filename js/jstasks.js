@@ -36,12 +36,22 @@
 
 // let number2 = document.getElementById("Input2").value;
 
-const Addnumbers = (number1, number2) => {
+const Addnumbers = (operator) => {
     let num1 = document.getElementById("Input1").value;
     let num2 = document.getElementById("Input2").value;
-    const output1 = Number(num1) + Number(num2);
+    // const output1 = Number(num1) + Number(num2);
     // Number(number1) + Number(number2);
-    document.getElementById("result").innerHTML = 'Result is ' + output1 ;
+    let result;
+    if (operator === '+') {
+         result = Number(num1) + Number(num2);
+    } else if (operator === '-') {
+         result = Number(num1) - Number(num2);
+    } else if (operator === '*') {
+         result = Number(num1) * Number(num2);
+    } else if (operator === '%') {
+         result = Number(num1) % Number(num2);
+    }
+    document.getElementById("result").innerHTML = 'Result is ' + result;
 }
 // const output1 = Addnumbers();
 // document.getElementById("result").innerText = Addnumbers();
